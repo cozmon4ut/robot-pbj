@@ -18,7 +18,6 @@ while sandwich_is_done != 1: # While the variable sandwich_is_done is not equal 
 
         if "jelly" in available_ingredients and "second_slice" in available_ingredients and "jelly" not in finished_sandwich:
             # Do we have both the second slice and jelly in our ingredients? If so, put the jelly on the second slice.
-
             finished_sandwich.append("jelly")
             finished_sandwich.append("second_slice")
         
